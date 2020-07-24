@@ -15,6 +15,7 @@ public class LoginServlet extends HttpServlet {
             resp.sendRedirect("CRUD Test.html");
         }
         else {
+
             resp.sendRedirect("login.html");
         }
     }
